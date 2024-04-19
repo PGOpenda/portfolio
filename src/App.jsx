@@ -12,6 +12,10 @@ function App() {
        <h3 className='title'>Software Engineer</h3> 
       </div>
 
+      <div className='bio'>
+
+      </div>
+
     </>
   )
 }

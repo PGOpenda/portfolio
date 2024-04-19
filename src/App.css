@@ -6,7 +6,26 @@
   padding-bottom: 11%;
 }
 
-.name{
+.logo {
+  animation: rotation 10s infinite linear;
+  border-radius: 15%;
+}
+
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.logo:hover {
+    box-shadow: 0 0 30px #F6F4D2;
+    transition: 0.8s;  
+}
+
+.name{ 
   font-size: 162px;
 }
 
