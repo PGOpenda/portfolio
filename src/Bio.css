@@ -1,0 +1,25 @@
+.bio {
+    background-color: #000;
+    color: #F6F4D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: auto;
+    padding: 5% 5%;
+}   
+
+.bio-h2{
+    padding-right: 5%;
+    font-size: 48px;
+}
+
+.bio-p{
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 50%;
+    padding-left: 5%;
+}

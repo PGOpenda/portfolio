@@ -14,7 +14,6 @@ function Header() {
                 <h3 className='title'>Software Engineer. </h3> 
             </div>
             </div>
-
         </>
     )
 }
