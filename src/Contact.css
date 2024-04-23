@@ -1,0 +1,30 @@
+.contact {
+    color: #000;
+    background-color: #F6F4D2;
+    height: fit-content;
+    padding: 5% 5%;
+}
+
+.contact-h1 {
+    font-size: 48px;
+    width: 70%;
+    padding-bottom: 3%;
+}
+
+a {
+    text-decoration: none;
+    padding: 1%;
+    background-color: black;
+    /* border: 1px solid black; */
+    border-radius: 5%;
+    color: #F6F4D2;
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+i {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
