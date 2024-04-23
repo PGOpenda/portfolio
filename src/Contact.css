@@ -15,11 +15,18 @@ a {
     text-decoration: none;
     padding: 1%;
     background-color: black;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     border-radius: 5%;
     color: #F6F4D2;
     margin-right: 2%;
     font-size: 18px;
+}
+
+a:hover {
+    background-color: #F6F4D2;
+    color: #000;
+    border: 1px solid #000;
+    transition: 0.4s;
 }
 
 i {
