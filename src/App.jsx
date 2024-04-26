@@ -1,6 +1,7 @@
 import Header from './Header'
 import Bio from './Bio'
 import Contact from './Contact'
+import Projects from './Projects'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
         <Header/>
         <Bio/>
+        <Projects/>
         <Contact/>
     </>
   )

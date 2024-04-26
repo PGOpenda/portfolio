@@ -1,0 +1,10 @@
+.projects {
+    background-color: #F6F4D2;
+    color: #000;
+    height: fit-content;
+    padding: 5% 5%;
+}
+
+.projects-h1 {
+    font-size: 48px;
+}

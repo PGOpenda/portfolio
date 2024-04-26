@@ -8,7 +8,7 @@ function Bio(){
                 <p className='bio-p'>
                 Hi there!👋 I'm PG, a full stack engineer who loves writing clean, efficient, 
                 and accessible code.👨‍💻 Using my superpowers💪, I've breathed life into digital 
-                projects - turning concepts into reality. Below are some of my projects. 
+                projects - turning concepts into reality. Feel free to check out some of my projects. 
                 </p>
             </div>
         </>
