@@ -1,0 +1,47 @@
+.card{
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 30%;
+    margin-right: 2%;
+}
+
+.card-a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.card-img{
+    height: 65%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.card-info{
+    padding: 5%;
+}
+
+.card-h3{
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    margin-bottom: 5%;
+}
+
+.card-p{
+    font-size: 22px;
+}
+
+.card-span{
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: fit-content;
+    margin-right: 2%;
+    padding: 1%;
+}
