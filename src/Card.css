@@ -1,13 +1,11 @@
-.card{
-    border: 3px solid black;
-    border-radius: 8px;
-    width: 30%;
-    margin-right: 2%;
-}
-
 .card-a{
     color: inherit;
     text-decoration: inherit;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 30%;
+    margin: 1%;
+    /* flex-grow: 1; */
 }
 
 .card-img{
