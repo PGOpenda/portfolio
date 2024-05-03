@@ -3,6 +3,7 @@
         "id": 1,
         "image": "portfolio.png",
         "title": "Developer Portfolio",
+        "link": "",
         "description": [
             "React","Vite","Bootstrap"
         ]
@@ -12,6 +13,7 @@
         "id": 2,
         "image": "",
         "title": "",
+        "link": "",
         "description": [
             
         ]
@@ -21,6 +23,7 @@
         "id": 3,
         "image": "",
         "title": "",
+        "link": "",
         "description": [
 
         ]
