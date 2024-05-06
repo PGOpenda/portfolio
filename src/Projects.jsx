@@ -5,10 +5,12 @@ import data from './data.json'
 function Projects() {
 
     const cards = data.map( card => {
-        <Card 
-            key={card.id}
-            {...data}
-        />
+        return (
+            <Card 
+                key={card.id}
+                {...card}
+            />
+        )
     } )
 
     return (
@@ -19,7 +21,7 @@ function Projects() {
                 </h1>
 
                 <div className='card-div'>
-                    <Card/>
+                    {cards}
                 </div>
             </div>
         </>

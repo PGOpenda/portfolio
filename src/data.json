@@ -2,6 +2,7 @@
     {
         "id": 1,
         "image": "portfolio.png",
+        "img_alt": "Developer Portfolio",
         "title": "Developer Portfolio",
         "link": "",
         "description": [
@@ -12,6 +13,7 @@
     {
         "id": 2,
         "image": "rust.jpg",
+        "img_alt": "Health Management",
         "title": "Health Management",
         "link": "https://github.com/PGOpenda/Health-Canister",
         "description": [

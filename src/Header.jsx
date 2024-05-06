@@ -1,5 +1,5 @@
 import './Header.css'
-import Logo from './assets/logo.png'
+import Logo from '../public/assets/logo.png'
 
 function Header() {
 
@@ -7,7 +7,7 @@ function Header() {
         <>
             <div className='header'>
             <a href=''>
-                <img className='logo' src={Logo} height={50} href="index.html"/>
+                <img className='logo' src={Logo} height={50} />
             </a>    
             <h1 className='name'>PG OPENDA</h1>
             <div className='title-div'>
