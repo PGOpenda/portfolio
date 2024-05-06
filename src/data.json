@@ -11,21 +11,11 @@
 
     {
         "id": 2,
-        "image": "",
-        "title": "",
-        "link": "",
+        "image": "rust.jpg",
+        "title": "Health Management",
+        "link": "https://github.com/PGOpenda/Health-Canister",
         "description": [
-            
-        ]
-    }, 
-
-    {
-        "id": 3,
-        "image": "",
-        "title": "",
-        "link": "",
-        "description": [
-
+            "Rust","Terminal","Blockchain"
         ]
     }
 ]

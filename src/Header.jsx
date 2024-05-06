@@ -6,7 +6,7 @@ function Header() {
     return (
         <>
             <div className='header'>
-            <a href='index.html'>
+            <a href=''>
                 <img className='logo' src={Logo} height={50} href="index.html"/>
             </a>    
             <h1 className='name'>PG OPENDA</h1>

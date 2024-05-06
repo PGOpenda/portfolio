@@ -1,7 +1,16 @@
 import './Projects.css'
 import Card from './Card'
+import data from './data.json'
 
 function Projects() {
+
+    const cards = data.map( card => {
+        <Card 
+            key={card.id}
+            {...data}
+        />
+    } )
+
     return (
         <>
             <div className='projects'>
