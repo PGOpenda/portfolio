@@ -1,6 +1,6 @@
-import './Projects.css'
+import '../styles/Projects.css'
 import Card from './Card'
-import data from './data.json'
+import data from '../data.json'
 
 function Projects() {
 

@@ -1,7 +1,7 @@
-import Header from './Header'
-import Bio from './Bio'
-import Contact from './Contact'
-import Projects from './Projects'
+import Header from './components/Header'
+import Bio from './components/Bio'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
 
 function App() {
 
