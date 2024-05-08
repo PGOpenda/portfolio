@@ -5,7 +5,7 @@ function Card(props) {
     return (
         
         <a href={props.link} className='card-a' target='_blank'>
-            <img src={`/assets/${props.image}`} alt={props.img_alt} className='card-img'/>
+            <img src={`./assets/${props.image}`} alt={props.img_alt} className='card-img'/>
             <div className='card-info'>
                 <h3 className='card-h3'>
                     {props.title}
