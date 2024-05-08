@@ -1,5 +1,5 @@
 import '../styles/Header.css'
-import Logo from '../../public/assets/logo.png'
+import Logo from '/assets/logo.png'
 
 function Header() {
 
