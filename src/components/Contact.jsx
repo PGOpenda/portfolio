@@ -16,7 +16,7 @@ function Contact() {
                 <a href="https://github.com/PGOpenda" target='_blank'>
                     <i className="bi bi-github"> Github</i>
                 </a>
-                <a href="https://drive.google.com/file/d/1TmEx8DDzZIsnYVtv8F-uEj4mVsSLa4nX/view?usp=sharing" target='_blank'>
+                <a href="https://drive.google.com/file/d/1llpaJ5eBsC8NJps64073eQrQgesc5f3W/view?usp=sharing" target='_blank'>
                     <i className="bi bi-file-earmark-fill"> My Resume</i>
                 </a>
             </div>
