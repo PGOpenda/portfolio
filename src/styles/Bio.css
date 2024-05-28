@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: fit-content;
-    width: auto;
+    /* width: auto; */
     padding: 5% 5%;
 }   
 
@@ -22,4 +22,25 @@
     font-size: 20px;
     width: 50%;
     padding-left: 5%;
+}
+
+/* Smaller devices (maximum width 599px) */
+@media (max-width: 599px) {
+    .bio{
+        display: block;
+        padding: 10%;
+        text-align: center;
+    }
+
+    .bio-h2{
+        padding-right: 0%;
+        padding-bottom: 2%;
+        font-size: 30px;
+    }
+
+    .bio-p{
+        padding-left: 0%;
+        width: auto;
+        font-size: 17px;   
+    }
 }
