@@ -1,18 +1,11 @@
-import Header from './components/Header'
-import Bio from './components/Bio'
-import Contact from './components/Contact'
-import Projects from './components/Projects'
 
 function App() {
 
   return (
     <>
-        <Header/>
-        <Bio/>
-        <Projects/>
-        <Contact/>
+      <h1>Under Construction: 🚧 </h1>
     </>
-  )
+  ) 
 }
 
 export default App
