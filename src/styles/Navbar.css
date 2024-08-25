@@ -1,0 +1,71 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center; 
+}
+
+li{
+    font-size: 0.9rem;
+    list-style:none;
+    margin: 0 1rem;
+}
+
+li span{
+    color: #FFD700;
+}
+
+a {
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover{
+    color: #FFD700;
+    transform: scale(1.1);
+}
+
+/* Create the bottom border using :before */
+a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFD700;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+/* On hover, make the border visible and expand it */
+a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+#resume{
+    display: block;
+    border: 1px solid #FFD700;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    color: #FFD700;
+    transition: color 0.4s ease, transform 0.4s ease, background-color 0.4s ease;   
+}
+
+#resume:hover{
+    background-color: #FFD700;
+    color: #141E30;
+    transform: translateY(-6px);
+    
+}
+
+#resume::before{
+    height: 0px;
+}

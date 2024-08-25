@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #141E30;
+    color: #B0BEC5;
+    font-family: Roboto Mono;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Orbitron;
+    color: #FFD700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main{
+    padding: 0rem 8rem;
+}
