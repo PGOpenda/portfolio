@@ -1,0 +1,31 @@
+.hero{
+    margin-top: 2rem;
+
+}
+
+.about h2{
+    font-size: 2rem;
+}
+
+.about hr{
+    width: 35%;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.about span{
+    font-size: 1.6rem;
+}
+
+.about p{
+    width: 60%;
+}
+
+.about ul{
+    list-style:none;
+    display: flex;
+}
+
+.about ul li{
+    margin: 0 1rem;
+}

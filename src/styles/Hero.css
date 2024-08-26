@@ -1,0 +1,41 @@
+.hero{
+    height: 90vh;
+    padding-top: 3rem;
+}
+
+.hero h3{
+    font-family: Roboto Mono;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-bottom: 1.3rem;
+}
+
+.hero h1{
+    font-size: 3.8rem;
+    /* padding-bottom: 0.5rem; */
+}
+
+.slogan{
+    padding-bottom: 2rem;
+}
+
+.hero p{
+    width: 55%;
+    padding-bottom: 3rem;
+}
+
+.hero a{
+    display: block;
+    width: fit-content;
+    border-radius: 2px;
+    border: 1px solid #FFD700;
+    padding: 1rem 2rem;
+    color: #FFD700;
+    transition: color 0.4s ease, transform 0.4s ease;
+}
+
+.hero a:hover{
+    background-color: #FFD700;
+    color: #141E30;
+    transform: translateY(-6px);
+}

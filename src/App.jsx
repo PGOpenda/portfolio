@@ -1,4 +1,6 @@
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About  from './components/About'
 
 function App() {
 
@@ -6,7 +8,8 @@ function App() {
     <main>
       <Navbar />
       <div className="main">
-        <h1>Under Construction: 🚧 Thats crazy how thinfs workd lanflja a;fj ja; </h1>
+        <Hero />
+        <About />
       </div>
        
     </main>
