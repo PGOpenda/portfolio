@@ -1,13 +1,13 @@
 import '../styles/About.css'
-import svelte from '../../public/assets/svelte.svg'
-import git from '../../public/assets/git.svg'
-import javascript from '../../public/assets/javascript.svg'
-import mongodb from '../../public/assets/mongodb.svg'
-import nodejs from '../../public/assets/nodejs.svg'
-import reactjs from '../../public/assets/reactjs.svg'
-import typescript from '../../public/assets/typescript.svg'
-import wordpress from '../../public/assets/wordpress.svg'
-import mysql from '../../public/assets/mysql.svg'
+import svelte from '/assets/svelte.svg'
+import git from '/assets/git.svg'
+import javascript from '/assets/javascript.svg'
+import mongodb from '/assets/mongodb.svg'
+import nodejs from '/assets/nodejs.svg'
+import reactjs from '/assets/reactjs.svg'
+import typescript from '/assets/typescript.svg'
+import wordpress from '/assets/wordpress.svg'
+import mysql from '/assets/mysql.svg'
 
 function About(){
     return (
@@ -24,8 +24,9 @@ function About(){
                 on a project or solving complex problems, I'm always eager to push the boundaries of what's possible in the digital 
                 world. <br /> <br />
                 Here are a few technologies I have worked with: <br /> <br />
+            </p>
 
-                <ul>
+            <ul>
                     <li><img className = "svg-img" src={svelte} alt="" /></li>
                     <li><img className = "svg-img" src={git} alt="" /></li>
                     <li><img className = "svg-img" src={javascript} alt="" /></li>
@@ -35,9 +36,7 @@ function About(){
                     <li><img className = "svg-img" src={typescript} alt="" /></li>
                     <li><img className = "svg-img" src={wordpress} alt="" /></li>
                     <li><img className = "svg-img" src={mysql} alt="" /></li>
-                </ul>
-
-            </p>
+            </ul>
         </div>
     )
 }

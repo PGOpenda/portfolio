@@ -1,16 +1,10 @@
-.hero{
-    margin-top: 2rem;
-
+.about{
+    margin-top: 5rem;
+    height: 90vh;
 }
 
 .about h2{
     font-size: 2rem;
-}
-
-.about hr{
-    width: 35%;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
 }
 
 .about span{
@@ -28,4 +22,13 @@
 
 .about ul li{
     margin: 0 1rem;
+}
+
+.about ul li img{
+    transition: transform 0.4s ease;
+}
+
+
+.about ul li img:hover{
+    transform: translateY(-6px);
 }

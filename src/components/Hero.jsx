@@ -21,7 +21,7 @@ function Hero() {
                 that are as functional as they are visually appealing.
             </p>
 
-            <a href="mailto:piusopenda@gmail.com">Get in touch</a>
+            <a href="mailto:piusopenda@gmail.com" target='_blank'>Get in touch</a>
         </div>
     )
 }

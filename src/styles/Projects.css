@@ -1,0 +1,28 @@
+.projects{
+    margin-top: 5rem;
+    height: 90vh;
+}
+
+.projects span{
+    font-size: 1.6rem;
+}
+
+.projects h2{
+    font-size: 2rem;
+}
+
+.project {
+    background-color: aqua !important;
+    /* margin-bottom: 4rem; */
+    /* height: 5rem; */
+}
+
+.project-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 85%;
+    height: fit-content;
+    background-color: antiquewhite;
+}
