@@ -3,7 +3,7 @@ import Project from './ProjectCard'
 
 function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id='projects'>
             <h2>
                 <span>02. </span> Projects 
                 <hr />

@@ -11,7 +11,7 @@ import mysql from '/assets/mysql.svg'
 
 function About(){
     return (
-        <div className="about">
+        <div className="about" id='about'>
             <h2><span>01. </span> About Me </h2> <hr />
 
             <p>
