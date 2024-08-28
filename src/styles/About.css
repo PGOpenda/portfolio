@@ -1,34 +1,34 @@
-.about{
+.about-section{
     margin-top: 5rem;
     padding: 2rem 0rem;
 }
 
-.about h2{
+.about-section h2{
     font-size: 2rem;
 }
 
-.about span{
+.about-section span{
     font-size: 1.6rem;
 }
 
-.about p{
+.about-section p{
     width: 60%;
 }
 
-.about ul{
+.about-section ul{
     list-style:none;
     display: flex;
 }
 
-.about ul li{
+.about-section ul li{
     margin: 0 1rem;
 }
 
-.about ul li img{
+.about-section ul li img{
     transition: transform 0.4s ease;
 }
 
 
-.about ul li img:hover{
+.about-section ul li img:hover{
     transform: translateY(-6px);
 }

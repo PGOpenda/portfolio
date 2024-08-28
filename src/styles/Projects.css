@@ -1,13 +1,13 @@
-.projects{
+.project-section{
     margin-top: 8rem;
     padding: 2rem 0rem;
 }
 
-.projects span{
+.project-section span{
     font-size: 1.6rem;
 }
 
-.projects h2{
+.project-section h2{
     font-size: 2rem;
 }
 
@@ -18,8 +18,8 @@
 }
 
 .project-grid{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     margin: 0 auto;
     width: 85%;

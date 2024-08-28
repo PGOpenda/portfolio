@@ -2,7 +2,7 @@ import '../styles/Hero.css'
 
 function Hero() {
     return (
-        <div className="hero">
+        <div className="hero-section">
             <h3>
                 Hello, my name is
             </h3>

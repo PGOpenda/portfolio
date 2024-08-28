@@ -1,16 +1,16 @@
-.hero{
+.hero-section{
     height: 90vh;
     padding-top: 3rem;
 }
 
-.hero h3{
+.hero-section h3{
     font-family: Roboto Mono;
     font-size: 1.1rem;
     font-weight: 400;
     padding-bottom: 1.3rem;
 }
 
-.hero h1{
+.hero-section h1{
     font-size: 3.8rem;
     /* padding-bottom: 0.5rem; */
 }
@@ -19,12 +19,12 @@
     padding-bottom: 2rem;
 }
 
-.hero p{
+.hero-section p{
     width: 55%;
     padding-bottom: 3rem;
 }
 
-.hero a{
+.hero-section a{
     display: block;
     width: fit-content;
     border-radius: 2px;
@@ -34,7 +34,7 @@
     transition: color 0.4s ease, transform 0.4s ease;
 }
 
-.hero a:hover{
+.hero-section a:hover{
     background-color: #FFD700;
     color: #141E30;
     transform: translateY(-6px);
