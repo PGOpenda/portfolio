@@ -1,5 +1,5 @@
 import '../styles/Projects.css'
-import Project from './ProjectCard'
+import ProjectCard from './ProjectCard'
 
 function Projects() {
     return (
@@ -10,10 +10,10 @@ function Projects() {
             </h2>
 
             <div className="project-grid">
-                <Project />       
-                <Project />       
-                <Project />       
-                <Project />       
+                <ProjectCard />       
+                <ProjectCard />       
+                <ProjectCard />       
+                <ProjectCard />       
             </div>
         </div>
     )

@@ -11,18 +11,50 @@
     font-size: 2rem;
 }
 
-.project {
-    background-color: aqua !important;
-    /* margin-bottom: 4rem; */
-    /* height: 5rem; */
+.project-card {
+    background-color: #1e2d49;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    padding: 2.5rem 1.5rem;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    /* Enhance the box shadow on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-card .imgs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card .info{
+    margin-top: 1.5rem;
+}
+
+.project-card .info h2{
+    font-size: 1.4rem;
+}
+
+.project-card .info p{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.project-card .tech{
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
 }
 
 .project-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
     margin: 0 auto;
-    width: 85%;
+    width: 90%;
     height: fit-content;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
