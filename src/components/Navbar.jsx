@@ -1,4 +1,5 @@
 import '../styles/Navbar.css'
+import logo from '/assets/logo.svg'
 
 function Navbar() {
 
@@ -12,7 +13,9 @@ function Navbar() {
 
     return (
         <nav className='navbar'>
-            <img src="" alt="The logo will go here" />
+            <a href="">
+                <img src={logo} alt="The logo will go here" />
+            </a>
             
             <ul className='links'>
                 <li><a href="#about" className='link' onClick={(e) => handleClick(e, 'about')}><span>01.</span> About</a></li>
