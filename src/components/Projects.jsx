@@ -1,5 +1,6 @@
 import '../styles/Projects.css'
 import ProjectCard from './ProjectCard'
+import data from '../data/data.json'
 
 function Projects() {
     return (
@@ -10,10 +11,15 @@ function Projects() {
             </h2>
 
             <div className="project-grid">
-                <ProjectCard />       
-                <ProjectCard />       
-                <ProjectCard />       
-                <ProjectCard />       
+                {data.map(project =>(
+                    <ProjectCard 
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        link={project.link}
+                        technologies={project.technologies}
+                    />              
+                ))}
             </div>
         </div>
     )

@@ -1,5 +1,30 @@
 [
     {
-        
+        "id": 1,
+        "title": "Ben Kijuu Foundation",
+        "description": "A nonprofit dedicated to liver cancer that offers information, resources, and support to individuals impacted by the disease",
+        "technologies": "SvelteKit, Svelte",
+        "link": "https://foundation-azure.vercel.app/"
+    },
+    {
+        "id": 2,
+        "title": "NFT Auction House",
+        "description": "An auction smart contract for non-fungible tokens that lets users sell their nfts. ",
+        "technologies": "Move, Sui, Blockchain",
+        "link": "https://github.com/PGOpenda/nft_auction"
+    },
+    {
+        "id": 3,
+        "title": "Health Canister",
+        "description": "A health record system utilizing blockchain technology",
+        "technologies": "Internet Computer, Rust, Shell",
+        "link": "https://github.com/PGOpenda/Health-Canister"
+    },
+    {
+        "id": 4,
+        "title": "Portfolio Website",
+        "description": "My personal website which you are viewing right now 😅",
+        "technologies": "React, CSS",
+        "link": "https://github.com/PGOpenda/portfolio"
     }
 ]
