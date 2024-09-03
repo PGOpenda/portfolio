@@ -1,0 +1,47 @@
+.entrance-container {
+    width: 100%;
+  }
+  
+  .animated-child {
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-timing-function: ease-out;
+    transition-duration: var(--animation-duration, 0.8s);
+    transition-delay: var(--animation-delay, 0s);
+  }
+  
+  .animated-child.is-visible {
+    opacity: 1;
+  }
+  
+  .animated-child.slideUp {
+    transform: translateY(20px);
+  }
+  
+  .animated-child.slideUp.is-visible {
+    transform: translateY(0);
+  }
+  
+  .animated-child.slideLeft {
+    transform: translateX(-20px);
+  }
+  
+  .animated-child.slideLeft.is-visible {
+    transform: translateX(0);
+  }
+  
+  .animated-child.slideRight {
+    transform: translateX(20px);
+  }
+  
+  .animated-child.slideRight.is-visible {
+    transform: translateX(0);
+  }
+  
+  .animated-child.scale {
+    transform: scale(0.8);
+  }
+  
+  .animated-child.scale.is-visible {
+    transform: scale(1);
+  }

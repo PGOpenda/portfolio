@@ -1,6 +1,8 @@
 .hero-section{
     height: 90vh;
     padding-top: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 .hero-section h3{
